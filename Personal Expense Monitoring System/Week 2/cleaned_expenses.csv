@@ -1,0 +1,6 @@
+expense_id,user_id,category_id,amount,expense_date,description,month,category
+1,1,1,1200.0,2025-07-01,Monthly grocery shopping,2025-07,Groceries
+2,1,2,300.0,2025-07-02,Bus pass,2025-07,Transport
+3,1,3,500.0,2025-07-10,Movie night,2025-07,Entertainment
+4,2,1,900.0,2025-07-03,Grocery,2025-07,Groceries
+5,2,4,1100.0,2025-07-05,Electricity bill,2025-07,Utilities
