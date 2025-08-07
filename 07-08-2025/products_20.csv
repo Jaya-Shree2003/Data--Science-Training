@@ -1,0 +1,21 @@
+product_id,product_name,category,price,quantity
+101,Laptop,Electronics,55000,10
+102,Smartphone,Electronics,30000,25
+103,Chair,Furniture,2500,50
+104,Book,Stationery,400,200
+105,Headphones,Electronics,1500,100
+106,Table,Furniture,3200,40
+107,Pen,Stationery,20,500
+108,Monitor,Electronics,12000,15
+109,Notebook,Stationery,60,300
+110,Sofa,Furniture,45000,5
+111,Mouse,Electronics,700,150
+112,Keyboard,Electronics,1200,120
+113,Desk Lamp,Furniture,1800,35
+114,Backpack,Stationery,900,80
+115,Webcam,Electronics,3500,60
+116,Desk Organizer,Stationery,250,210
+117,Bookshelf,Furniture,7500,12
+118,Charger,Electronics,800,95
+119,Stapler,Stationery,150,400
+120,Air Conditioner,Electronics,38000,8
