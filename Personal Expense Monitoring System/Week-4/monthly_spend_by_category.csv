@@ -1,0 +1,6 @@
+user_id,month,category,total_amount
+1,2025-07,Entertainment,500.0
+1,2025-07,Groceries,1200.0
+1,2025-07,Transport,300.0
+2,2025-07,Groceries,900.0
+2,2025-07,Utilities,1100.0
