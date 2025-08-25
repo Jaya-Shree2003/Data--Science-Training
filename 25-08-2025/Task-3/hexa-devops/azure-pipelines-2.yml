@@ -1,0 +1,17 @@
+- script: |
+    python data_processing.py
+- script: |
+    python - <<EOF
+    from azure.storage.blob import BlobServiceClient
+    import os
+    blob_service_client = BlobServiceClient(
+        account_url=f"https://{os.getenv('AZURE_STORAGE_ACCOUNT_NAME')}.blob.core.windows.net",
+        credential=os.getenv("AZURE_STORAGE_ACCOUNT_KEY")
+    )
+    container = os.getenv("AZURE_CONTAINER_NAME")
+    for f in ["raw_sales_data.csv", "clean_sales_data.csv"]:
+        with open(f, "rb") as data:
+            blob_service_client.get_container_client(container).upload_blob(f, data, overwrite=True)
+    print("Uploaded both files to Blob Storage")
+    EOF
+  displayName: 'Upload CSVs to Azure Blob Storage'
