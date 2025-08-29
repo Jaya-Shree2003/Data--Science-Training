@@ -1,1 +1,1 @@
-print("Banking Application Placeholder")
+print("E-Commerce Application Placeholder")
