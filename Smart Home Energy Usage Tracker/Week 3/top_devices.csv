@@ -1,0 +1,6 @@
+device_id,total_energy_kwh,peak_usage_kwh,offpeak_usage_kwh,avg_energy_kwh,max_energy_kwh
+9,2.0,2.0,0.0,2.0,2.0
+6,1.5,1.5,0.0,1.5,1.5
+3,1.2,1.2,0.0,1.2,1.2
+16,1.0,0.0,1.0,1.0,1.0
+11,0.9,0.9,0.0,0.9,0.9
